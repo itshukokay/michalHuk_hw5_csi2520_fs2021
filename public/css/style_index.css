@@ -1,0 +1,71 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(188, 189, 206);
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    color: red;
+    margin: auto;
+    border: 2px;
+    padding: 2px;
+    clear: both;
+}
+
+p{
+    text-align: center;
+    display: inline-block;
+    width: 75%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 1%;
+    position: center;
+    color: red;
+    float: none;
+}
+
+#quote{
+    font-style: italic;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p:hover{
+    background-color: darkgrey;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: darkred;
+}
+
+nav{
+    text-align: center;
+    text-decoration: red;
+    font-weight: 700;
+    width: 75%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 1%;
+    float: none;
+}
+
+#headshot, #book, #music{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    float: left;
+}
